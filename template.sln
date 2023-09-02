@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0ACEE76E-2532-46BA-A852-6830A4DEB992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "application", "src\uhlig.template.Application\application.csproj", "{DE165EF3-5A68-4350-B40F-DDC3B18FD762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domain", "src\uhlig.template.Domain\domain.csproj", "{81B1817E-E909-4565-8197-A0EC90BBE5D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service", "src\uhlig.template.Service\service.csproj", "{18E5AFC3-7B78-4113-A519-400038AB1989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infra.Data", "src\uhlig.template.Infra.Data\infra.Data.csproj", "{4E4C45CC-3EC3-48D0-B691-0F37D07C9D7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infra.CrossCutting", "src\uhlig.template.Infra.CrossCutting\infra.CrossCutting.csproj", "{630E1FAB-8B72-4708-B42A-ECC01A8AAC10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE165EF3-5A68-4350-B40F-DDC3B18FD762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE165EF3-5A68-4350-B40F-DDC3B18FD762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE165EF3-5A68-4350-B40F-DDC3B18FD762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE165EF3-5A68-4350-B40F-DDC3B18FD762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B1817E-E909-4565-8197-A0EC90BBE5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B1817E-E909-4565-8197-A0EC90BBE5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B1817E-E909-4565-8197-A0EC90BBE5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B1817E-E909-4565-8197-A0EC90BBE5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E5AFC3-7B78-4113-A519-400038AB1989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E5AFC3-7B78-4113-A519-400038AB1989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E5AFC3-7B78-4113-A519-400038AB1989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E5AFC3-7B78-4113-A519-400038AB1989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4C45CC-3EC3-48D0-B691-0F37D07C9D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4C45CC-3EC3-48D0-B691-0F37D07C9D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4C45CC-3EC3-48D0-B691-0F37D07C9D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4C45CC-3EC3-48D0-B691-0F37D07C9D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630E1FAB-8B72-4708-B42A-ECC01A8AAC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630E1FAB-8B72-4708-B42A-ECC01A8AAC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630E1FAB-8B72-4708-B42A-ECC01A8AAC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630E1FAB-8B72-4708-B42A-ECC01A8AAC10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE165EF3-5A68-4350-B40F-DDC3B18FD762} = {0ACEE76E-2532-46BA-A852-6830A4DEB992}
+		{81B1817E-E909-4565-8197-A0EC90BBE5D0} = {0ACEE76E-2532-46BA-A852-6830A4DEB992}
+		{18E5AFC3-7B78-4113-A519-400038AB1989} = {0ACEE76E-2532-46BA-A852-6830A4DEB992}
+		{4E4C45CC-3EC3-48D0-B691-0F37D07C9D7A} = {0ACEE76E-2532-46BA-A852-6830A4DEB992}
+		{630E1FAB-8B72-4708-B42A-ECC01A8AAC10} = {0ACEE76E-2532-46BA-A852-6830A4DEB992}
+	EndGlobalSection
+EndGlobal
